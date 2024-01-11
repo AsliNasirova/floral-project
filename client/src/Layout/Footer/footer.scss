@@ -1,0 +1,80 @@
+#footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(224, 236, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .leftArea_footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 120px;
+
+            .input_btn {
+                display: flex;
+            }
+
+            .image_footer {
+                img {
+                    width: 140px;
+                    height: 50px;
+                }
+
+
+            }
+
+            input {
+                width: 400px;
+                height: 40px;
+                border: 1px solid rgb(224, 236, 220);
+                  border-bottom: 1px solid black;
+            }
+
+            .send {
+                width: 100px;
+                height: 40px;
+                border: 1px solid rgb(224, 236, 220);
+              
+
+                &:hover {
+                    transition: 0.4s;
+                    background-color: rgb(216, 227, 213);
+                }
+            }
+        }
+
+        .rightArea_footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            .aboutUs_part {
+                gap: 20px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                color: rgb(12, 91, 71);
+
+                .text_aboutUs_part{
+                    li{
+                       &:hover{
+                        border-bottom: 1px solid yellow;
+                    } 
+                    }
+                    
+                }
+            }
+        }
+    }
+}

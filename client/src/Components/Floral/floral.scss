@@ -1,0 +1,27 @@
+#floral {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    .text_floral {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1b745e;
+
+        p {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 70px;
+        }
+    }
+}
+

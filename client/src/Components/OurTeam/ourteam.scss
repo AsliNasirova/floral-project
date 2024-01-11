@@ -1,0 +1,37 @@
+#ourTeam{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .ourteam{
+     
+
+        .container_ourT_card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .images_ourteam{
+               .text_ourT{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: rgb(90,145,128);
+               } 
+            }
+        }
+        .title_text_ourteam{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: rgb(12,91,71);
+            h4{
+                font-size: 40px;
+            }
+        }
+    }
+}
